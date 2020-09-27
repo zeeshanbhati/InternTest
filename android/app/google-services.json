@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "18996743548",
+    "firebase_url": "https://interntestapp-f9650.firebaseio.com",
+    "project_id": "interntestapp-f9650",
+    "storage_bucket": "interntestapp-f9650.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18996743548:android:2276f20e30c0705bb068f9",
+        "android_client_info": {
+          "package_name": "com.example.intern_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18996743548-qb931hbams5ogciobl9tf0b98e9tqju9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhgh3ergsbE3ILWxJ95AC41tvlAkGJgDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18996743548-qb931hbams5ogciobl9tf0b98e9tqju9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
