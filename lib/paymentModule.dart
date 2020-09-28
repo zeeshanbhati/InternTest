@@ -1,8 +1,6 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import "package:crypto/crypto.dart";
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:intern_test/PaymentScreen.dart';
 
 
@@ -19,7 +17,6 @@ class PaymentModule extends StatefulWidget {
 class _PaymentModuleState extends State<PaymentModule> {
 
  Firestore _firestore = Firestore.instance;
-  TextEditingController _textEditingController = TextEditingController();
   int amount;
 
   Future<int> getData(int index) async {
@@ -90,7 +87,7 @@ class _PaymentModuleState extends State<PaymentModule> {
 
               SizedBox(height: 100,),
 
-              Text("Wait for 5 sec after pressing button")
+              Text("Wait for 2-3 sec after pressing button")
             ],
           ),
         ),
