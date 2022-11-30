@@ -38,7 +38,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
 
   void openCheckout() async {
     var options = {
-      'key': 'rzp_test_PDjVb3Q3TNjyJo',
+      'key': 'demo_key_api',
       'amount': amount*100,
       'name': 'Zeeshan ',
       'description': 'Intern Test',
